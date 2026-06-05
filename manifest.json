@@ -1,0 +1,24 @@
+﻿{
+  "name": "Musikraum",
+  "short_name": "Musikraum",
+  "description": "Musik aus der Stille, Klangbehandlungen und gemeinsames Spielen ohne Noten mit mir.",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#f6f1e9",
+  "theme_color": "#f6f1e9",
+  "lang": "de-CH",
+  "icons": [
+    {
+      "src": "/assets/favicon.svg?v=6",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/apple-touch-icon.png?v=6",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

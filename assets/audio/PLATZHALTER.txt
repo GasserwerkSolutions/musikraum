@@ -1,0 +1,9 @@
+Hier können später echte Klangproben abgelegt werden.
+
+Mögliche Dateien:
+- didgeridoo-kurz.mp3
+- harfe-kurz.mp3
+- floete-kurz.mp3
+- zusammenspiel-kurz.mp3
+
+Aktuell nutzt die Website keine eingebundenen Audio-Player.

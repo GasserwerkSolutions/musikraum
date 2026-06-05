@@ -1,0 +1,24 @@
+/*
+  Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), interest-cohort=()
+  Cross-Origin-Opener-Policy: same-origin
+  Cross-Origin-Embedder-Policy: unsafe-none
+  Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' https://app.gasserwerk.ch https://*.gasserwerk.ch; style-src 'self' 'unsafe-inline' https://app.gasserwerk.ch https://*.gasserwerk.ch; img-src 'self' data: https://app.gasserwerk.ch https://*.gasserwerk.ch; font-src 'self' https://app.gasserwerk.ch https://*.gasserwerk.ch; frame-src https://app.gasserwerk.ch https://*.gasserwerk.ch; connect-src 'self' https://app.gasserwerk.ch https://*.gasserwerk.ch; object-src 'none'; base-uri 'self'; form-action 'self' https://app.gasserwerk.ch https://*.gasserwerk.ch; frame-ancestors 'none'; upgrade-insecure-requests
+
+/assets/*
+  Cache-Control: public, max-age=86400, must-revalidate
+
+/assets/*.css
+  Cache-Control: public, max-age=300, must-revalidate
+
+/*.html
+  Cache-Control: public, max-age=300, must-revalidate
+
+/_headers
+  Cache-Control: no-store
+
+/_redirects
+  Cache-Control: no-store
